@@ -59,3 +59,10 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+
+
+
+
+
+server "michawebsite.ovh", :app, :web, :db, :primary => true
+set :deploy_to, "/homez.145/michawebjw/www/folder123_staging"
