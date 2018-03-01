@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.1"
 
-set :scm, :git
+# set :scm, :git
 
 set :application, "my_capi_app"
 set :repo_url, "git@github.com:micha1805/capitest.git"
