@@ -61,8 +61,7 @@
 #   }
 
 
-
-server "michawebsite.ovh",
+server "ssh.cluster021.hosting.ovh.net",
   user: "michawebjw",
   roles: %w{web app},
   ssh_options: {

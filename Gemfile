@@ -26,7 +26,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails_12factor', group: :production
 gem 'puma'
 
-gem 'capistrano-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -38,6 +37,9 @@ gem 'capistrano-rails'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+	gem 'capistrano'
+	gem 'capistrano-rails'
+	# gem 'capistrano-rbenv'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 

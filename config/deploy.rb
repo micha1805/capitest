@@ -5,6 +5,8 @@ lock "~> 3.10.1"
 
 set :application, "my_capi_app"
 set :repo_url, "git@github.com:micha1805/capitest.git"
+
+
 set :user, "michawebjw"
 
 
